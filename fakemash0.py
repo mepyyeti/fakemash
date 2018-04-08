@@ -1,5 +1,5 @@
 #!usr/bin/env python3
-#simplcalc0.py
+#fakemash0.py
 
 import sys
 from functools import partial
