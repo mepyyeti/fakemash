@@ -74,6 +74,8 @@ def mash():
 	
 		final_dict = {}
 	
+		#unable to find better alternative to 'eliminate' used categories
+		#this method obv screws up the count, among other shortcomings(?)
 		while len(main_dict) != 0:
 			if circle >len(main_dict):
 				circle /= len(main_dict)
